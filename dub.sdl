@@ -1,0 +1,8 @@
+name "pwcheck"
+description "Check a Unix system for weak /etc/shadow passwords"
+authors "Julian Fondren"
+copyright "Copyright © 2020, Julian Fondren"
+license "GPL"
+dependency "sumtype" version="~>0.9.4"
+libs "crypt"
+stringImportPaths "includes"
