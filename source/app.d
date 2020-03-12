@@ -88,7 +88,7 @@ UserPass[] hashes() @trusted {
 		}).array;
 }
 
-void main() @trusted {
+void main() @safe {
 	foreach (up; hashes()) {
 		lint(up.user, up.pass);
 	}
